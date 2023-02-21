@@ -1,0 +1,32 @@
+{
+    "name": "oriondevelops/nova-greeter",
+    "description": "A Laravel Nova greeter card.",
+    "keywords": ["laravel", "nova", "card", "greeter", "dashboard"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "laravel/nova": "^4.0"
+    },
+    "repositories": [
+        {
+            "type": "composer", "url": "https://nova.laravel.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Orion\\NovaGreeter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Orion\\NovaGreeter\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
