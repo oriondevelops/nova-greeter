@@ -5,6 +5,8 @@
 
 This [Laravel Nova](https://nova.laravel.com) package adds a customizable greeting card to your dashboard.
 
+![basic](https://user-images.githubusercontent.com/39307250/220455097-56e59574-e1a9-433f-bf55-d9d2ad40f926.png)
+
 ## Installation
 
 You can install the package via composer:
@@ -50,6 +52,8 @@ public function cards()
 ```
 
 ## Example
+
+![example](https://user-images.githubusercontent.com/39307250/220455738-44e1ab7d-cbe3-411c-bfb0-8a1714e91185.png)
 
 ```php
 GreeterCard::make()
