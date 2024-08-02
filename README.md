@@ -51,6 +51,13 @@ public function cards()
 ->avatar(url: $avatarUrl ?? $placeholderAvatarUrl)
 ```
 
+![verified-example](docs/verified-example.png)
+
+**Verified**
+```php
+->verified(text: 'Verified Account')
+```
+
 ## Example
 
 ![example](https://user-images.githubusercontent.com/39307250/220455738-44e1ab7d-cbe3-411c-bfb0-8a1714e91185.png)
@@ -75,6 +82,7 @@ php artisan vendor:publish --provider="Orion\NovaGreeter\CardServiceProvider"
 ## Credits
 
 - [Mücahit Uğur](https://github.com/oriondevelops)
+- [All Contributors](https://github.com/oriondevelops/nova-greeter/contributors)
 
 ## License
 
