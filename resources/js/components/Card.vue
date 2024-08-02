@@ -32,9 +32,9 @@
                         </div>
                         <div
                             v-if="card.button"
-                            class="mt-5 flex justify-center sm:mt-0">
+                            class="mt-5 flex justify-center sm:mt-0 ml-1">
                             <Link :href="card.button_target"
-                                  :class="card.button_style ?? 'flex justify-center items-center px-4 py-2 border border-gray-300 dark:border-gray-800 shadow-sm dark:shadow-inner text-sm font-medium rounded-md text-gray-700 dark:text-gray-300 bg-white hover:bg-gray-50 dark:bg-gray-700 hover:dark:bg-gray-600'">
+                                  :class="card.button_style ?? 'flex justify-center items-center px-4 py-2 border border-gray-300 dark:border-gray-800 shadow-sm dark:shadow-inner text-sm font-medium whitespace-nowrap rounded-md text-gray-700 dark:text-gray-300 bg-white hover:bg-gray-50 dark:bg-gray-700 hover:dark:bg-gray-600'">
                                 {{ card.button_name }}
                             </Link>
                         </div>
