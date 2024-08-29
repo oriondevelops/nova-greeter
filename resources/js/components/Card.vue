@@ -1,7 +1,7 @@
 <template>
     <Card class="greeter flex flex-col justify-center">
         <section :class="{ dark: dark }" aria-labelledby="greeter">
-            <div :class="card.style_override ?? [card.style_extend, 'dark:shadow-inner']">
+            <div :class="card.style_override ?? [card.style_extend]">
                 <h2 class="sr-only" id="greeter">{{ __('Greetings Overview') }}</h2>
                 <div class="p-6">
                     <div class="sm:flex sm:items-center sm:justify-between">
