@@ -4,8 +4,8 @@
     "keywords": ["laravel", "nova", "card", "greeter", "dashboard"],
     "license": "MIT",
     "require": {
-        "php": "^8.0",
-        "laravel/nova": "^4.0"
+        "php": "^8.1",
+        "laravel/nova": "^5.0"
     },
     "repositories": [
         {
